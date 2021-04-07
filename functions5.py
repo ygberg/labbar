@@ -6,7 +6,7 @@ def pwcheck(pw):
     ints = 0
 
     if len(pw) > 10 or len(pw) < 6:
-        return(print('password must be between 6 and 10 letters'))
+        print('password must be between 6 and 10 letters')
     
     else:
         for i in pw:
