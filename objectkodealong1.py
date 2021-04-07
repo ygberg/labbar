@@ -78,7 +78,7 @@ class Book():
         return 'Title:%sAuthor:%s Pages. %s'%(self.title, self.author, self.pages)
 
     def __len__(self):
-        return self.pages
+     return self.pages
     
     def __del__(self):
         print('A book is destroyed')
