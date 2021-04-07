@@ -86,5 +86,5 @@ class Book():
 book = Book('Python course','Fredrik', 300)
 print(book)
 print(len(book))
-
+print()
 
