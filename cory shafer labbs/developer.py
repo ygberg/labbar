@@ -4,7 +4,6 @@ class Developer(Employee):
 
     raise_amt = 1.04
 
-    def __init__(self,self, first:str, last:str, pay:int, prog_lang:str):
-        super().__init__(first:str, last:str, pay:int)
+    def __init__(self, first, last, pay, prog_lang):
+        super().__init__(first, last, pay)
         self.prog_lang = prog_lang
-        
