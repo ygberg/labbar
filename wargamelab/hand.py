@@ -14,11 +14,12 @@ class Hand():
      
         if self.count == 0:
             deck1 = self.deck.cards[0:25]
-            for i in deck1:
+            return deck1
+            """ for i in deck1:
                 #print(i)
                 self.cards.append(i)
                 
-                return self.cards,self.count, print(cards[::])
+                return self.cards,self.count, print(cards[::])"""
         else:
             
             deck2 = self.deck.cards[26:51]
