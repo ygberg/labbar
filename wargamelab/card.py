@@ -16,5 +16,4 @@ class Card():
         return '{}{}'.format(self.value,self.suit)
 
 
-    def hidden(self):
-        print('##')
+    
