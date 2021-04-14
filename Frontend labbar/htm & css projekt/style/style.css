@@ -1,0 +1,38 @@
+
+body, html{
+    height: 100%;
+    background-color: black;
+}
+.bg{
+    background-image: url(images/girl.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topnav{
+    background-color: black;
+    }
+.topnav img{
+    width: 30px;
+    height: 28px;
+    
+}
+.topnav a{
+    background-color: black;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 24px;
+    padding-top: 2px;
+    margin-top: 2px;
+}
+main{
+   background-color: black;
+   
+    
+
+}
