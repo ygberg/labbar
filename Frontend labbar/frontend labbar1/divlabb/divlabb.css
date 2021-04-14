@@ -1,0 +1,24 @@
+body{
+
+    background-image: url(https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg);
+    background: no-repeat;
+}
+
+div{
+background-color: cadetblue;
+border: chocolate;
+border-width: thick;
+border-style: dashed;
+
+
+}
+
+p{
+color: crimson;
+
+}
+
+span{
+
+color: darkmagenta;
+}

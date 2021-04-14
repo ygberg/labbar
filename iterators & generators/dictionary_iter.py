@@ -15,7 +15,7 @@ class dictionary_iter ():
             if self.j != self.i:
                 self.j +=1
                 return self.ditu[self.j]
-        except:
+        except Exception:
                 raise StopIteration
 
 result = dictionary_iter({1: "1", 2: "2"})
