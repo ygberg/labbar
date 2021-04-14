@@ -1,0 +1,62 @@
+<html lang="English">
+<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/form.css">
+        <title>Beer Store</title>
+</head>
+<body>
+    
+<nav>
+        <div class="topnav">
+            <a class="logo" href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html">Home</a>
+            <a href="all-beers.html">See All Beers</a>
+            <a class="active" href="order.html">Oder a Beer</a>
+            <a class="right" href="register.html">Register</a>
+            <a class="right" href="login.html">Log in</a>
+        </div>
+        <!-- navbar items goes here-->
+</nav>
+
+<main>
+        <center>
+                <h1>Order a Beer</h1>
+                <br />
+                <form>
+                        <label >Brand</label>
+                        <select>
+                                <option selected disabled>Select a Brand</option>
+                                <option>Corona Extra 330ml</option>
+                                <option>Stella Artois 500ml</option>
+                                <option>Carlsberg 330ml</option>
+                                <option>Heineken 330ml</option>
+                        </select>
+                        <label >Quantity</label>
+                        <input type="number" min="1" max="15"
+                        placeholder="Enter amount of beer (1-15)">
+                        <label></label>Destination
+                        <select>
+                                <option selected disabled>Select Destination</option>
+                                <option>Stockholm</option>
+                                <option>Göteborg</option>
+                                <option>Malö</option>
+                                <option>Uppsala</option>
+                        </select>
+                        <label>Enter your Birthdate</label>
+                        <input type="date">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Order your beer">
+                </form>
+        </center>
+
+</main>
+<footer>
+    <!-- footer codes goes here-->
+     <hr />
+     <p><em>&copy; 2021 &dash; Beer Store </em></p>
+</footer>
+</body>
+
+
+</html>
